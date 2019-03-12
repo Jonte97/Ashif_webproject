@@ -15,22 +15,13 @@ $('a[href^="#"]').on('click', function (event) {
         }, 1000);
     }
 });
-//$("#button").click(function () {
-//    $([document.documentElement, document.body]).animate({
-//        scrollTop: $("#elementtoScrollToID").offset().top
-//    }, 2000);
-//});
-//$(function () {
-//    $('ul.nav a').bind('click', function (event) {
-//        event.preventDefault();
-//        var $anchor = $(this);
-//        console.log($anchor.attr('href'))
-//        $('html, body').stop().animate({
-//            scrollTop: $($anchor.attr('href')).offset().top
-//        }, 1000);
-//        event.preventDefault();
-//    });
-//});
+
+$(function() {
+    $(function () {
+        $('a[data-price_cathegory] = photo');
+    });
+});
+
 
 (function ($) {
     $(document).ready(function () {

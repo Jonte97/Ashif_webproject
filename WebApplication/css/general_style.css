@@ -5,7 +5,7 @@ img.center {
     margin-right: auto;
 }
 /*Makes pic round*/
-#profPic{
+.profPic{
     border-radius: 50%;
 }
 #portfolio {
@@ -15,7 +15,6 @@ img.center {
 }
 /*Header pic*/
 header {
-    background-image: url(../img/africa-arid-barren-255419.jpg);
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -24,7 +23,15 @@ header {
     background-position: center center;
     background-size: cover;
 }
-
+#first {
+    background-image: url(../img/africa-arid-barren-255419.jpg);
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
 #aboutText {
     padding: 5% 20% 0 20%;
 
@@ -39,12 +46,36 @@ header {
 .navbarColor {
     background: #0072bc;
 }
-#navbar {
-    padding-left: 20em;
+/*********************PRICEINFORMATION******************/
+.price-card{
+    margin: 3em 3em 3em 3em;
+    height: 250px;
+    width: 100%;
 }
-#navbar2{
-    padding-left: 20em;
+#photoShoot {
+    background-image: url(../img/africa-arid-barren-255419.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 6px;
 }
+#video {
+    background-image: url(../img/bro.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 6px;
+}
+#hire {
+    background-image: url(../img/höst.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 6px;
+}
+#pricecoloum {
+    height: 250px;
+    background-color: #0000008a;
+    border-radius: 0px 6px 6px 0px;
+}
+/********************************************************/
 /*********************MINISLIDER***********************/
 #miniSlider {
     height: 240px;
@@ -54,6 +85,9 @@ header {
 }
 /*****************************************************/
 /*-------------SLIDER--------------*/
+#slider {
+    background-color: #41f4d9;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -122,7 +156,9 @@ footer {
     background: #2b4c87;
     height: 200px;
 }
-
+#contact-info-list{
+    padding-left: 6em;
+}
 /***********************************/
 .wrapper {
     margin-top: 5em;

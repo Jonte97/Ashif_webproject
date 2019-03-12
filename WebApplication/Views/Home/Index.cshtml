@@ -16,10 +16,10 @@
                         <a class="nav-link text-white" href="#first">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item hover-item">
-                        <a class="nav-link text-white" href="#slider">Slideshow</a>
+                        <a class="nav-link text-white" href="#about">Timeline</a>
                     </li>
                     <li class="nav-item hover-item">
-                        <a class="nav-link text-white" href="#about">Timeline</a>
+                        <a class="nav-link text-white" href="#slider">Slideshow</a>
                     </li>
                     <li class="nav-item hover-item">
                         <a class="nav-link text-white" href="#portfolio">Portfolio</a>
@@ -37,11 +37,11 @@
         @Html.Partial("_Header")
         @Html.Partial("_MiniSlider")
     </section>
-    <section id="slider" class="section dark">
-        @Html.Partial("_Slider");
-    </section>
     <section id="about" class="section">
         @Html.Partial("_About")
+    </section>
+    <section id="slider" class="section dark">
+        @Html.Partial("_Slider");
     </section>
     <section id="portfolio">
         @Html.Partial("_Portfolio")
