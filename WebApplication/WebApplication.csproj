@@ -135,6 +135,7 @@
     <Content Include="Views\shared\_Contact.cshtml" />
     <Content Include="Views\shared\_MiniSlider.cshtml" />
     <Content Include="Views\shared\_PriceInfo.cshtml" />
+    <Content Include="Views\shared\_Gallery.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
