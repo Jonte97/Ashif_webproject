@@ -13,16 +13,6 @@ img.center {
     padding-top: 2em;
     padding-bottom: 2em;
 }
-/*Header pic*/
-header {
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-}
 #first {
     background-image: url(../img/africa-arid-barren-255419.jpg);
     text-align: center;
@@ -31,6 +21,7 @@ header {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    padding-top: 15em;
 }
 #aboutText {
     padding: 5% 20% 0 20%;
@@ -43,9 +34,34 @@ header {
     height: auto;
 }
 
-.navbarColor {
-    background: #0072bc;
+/**************NAVBAR STYLE*********************/
+/*Header pic*/
+header {
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
+.navbarBlue {
+    background-color: #0072bc;
+}
+.navbarTrans {
+    background-color: #1a1a1a3b;
+}
+.sticky{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+#navbar {
+    z-index: 10;
+}
+
+/*************************************/
+
 /*********************PRICEINFORMATION******************/
 .price-card{
     margin: 3em 3em 3em 3em;
@@ -85,9 +101,6 @@ header {
 }
 /*****************************************************/
 /*-------------SLIDER--------------*/
-#slider {
-    background-color: #41f4d9;
-}
 html, body {
     margin: 0;
     padding: 0;
@@ -101,6 +114,7 @@ html, body {
     position: absolute;
     width: 100%;
     height: 100%;
+    z-index: 15;
 }
 
 .slide1 {
@@ -120,6 +134,16 @@ html, body {
     background: url(../img/africa-arid-barren-255419.jpg) no-repeat center center fixed;
 }
 /*-----------END OF SLIDER-------------------*/
+
+/***************Gallery**************************/
+#gallery{
+    padding-top: 5em;
+}
+
+/***************End of gallery*******************/
+
+
+
 
 /* Removes the default 20px margin and creates some padding space for the indicators and controls */
 .carousel {

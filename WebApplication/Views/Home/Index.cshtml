@@ -5,51 +5,24 @@
 }
 
 <div>
-    @* Navbar som följer TODO: se över om jag kan merga de 2 navbarsen *@
-    <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbarColor">
-        <a class="navbar-brand text-white" href="#">Ashif Hossain</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active hover-item">
-                    <a class="nav-link text-white" href="#first">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item hover-item">
-                    <a class="nav-link text-white" href="#about">Timeline</a>
-                </li>
-                <li class="nav-item hover-item">
-                    <a class="nav-link text-white" href="#slider">Slideshow</a>
-                </li>
-                <li class="nav-item hover-item">
-                    <a class="nav-link text-white" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item hover-item">
-                    <a class="nav-link text-white" href="#priceInfo">Priceinformation</a>
-                </li>
-                <li class="nav-item hover-item">
-                    <a class="nav-link text-white" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <section id="first" class="section first">
+    <section>
         @Html.Partial("_Header")
+    </section>
+    <section id="first" class="section">
         @Html.Partial("_MiniSlider")
+    </section>
+    <section id="gallery" class="section">
+        @Html.Partial("_Gallery")
+    </section>
+    <section id="slider" class="section">
+        @Html.Partial("_Slider");
     </section>
     <section id="about" class="section">
         @Html.Partial("_About")
     </section>
-    <section id="slider" class="section dark">
-        @Html.Partial("_Slider");
-    </section>
-    <section id="portfolio">
-        @Html.Partial("_Portfolio")
-    </section>
-    <section id="gallery">
-        @Html.Partial("_Gallery")
-    </section>
+    @*<section id="portfolio">
+            @Html.Partial("_Portfolio")
+        </section>*@
     <section id="priceInfo">
         @Html.Partial("_PriceInfo")
     </section>
