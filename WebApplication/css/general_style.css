@@ -63,12 +63,46 @@ header {
 /*************************************/
 
 /*********************PRICEINFORMATION******************/
-.price-card{
-    margin: 3em 3em 3em 3em;
-    height: 250px;
-    width: 100%;
+#priceInfo {
+    padding-top: 5%;
+    padding-bottom: 5%
 }
-#photoShoot {
+.price-pic {
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+    width: 300px;
+}
+.price-card-header {
+    /*background-image: url(../img/bro.jpg);
+    background-position: center center;
+    background-size: cover;*/
+  
+    border-radius: 15px 15px 0 0;
+}
+.price-card-body {
+    background-color: #1f1f1f;
+    border-radius: 0px 0px 15px 15px;
+}
+    .price-card-body p {
+        color: #dcdcdc;
+    }
+.price-card-footer {
+    background-color: #272626;
+    border-radius: 0px 0px 15px 15px;
+}
+.price-card {
+    margin: 2em 2em 2em 2em;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px;
+}
+.contact-nav-btn {
+    border-radius: 4px !important;
+    margin-bottom: -4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*#photoShoot {
     background-image: url(../img/africa-arid-barren-255419.jpg);
     background-position: center center;
     background-size: cover;
@@ -90,7 +124,7 @@ header {
     height: 250px;
     background-color: #0000008a;
     border-radius: 0px 6px 6px 0px;
-}
+}*/
 /********************************************************/
 /*********************MINISLIDER***********************/
 #miniSlider {

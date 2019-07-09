@@ -23,6 +23,22 @@ $(function() {
 });
 
 
+//fade in och fade out för priskategorier https://www.w3schools.com/jquery/jquery_animate.asp <=== INSPIRATION
+//$(function () {
+//    $('#hover').hover(function () {
+//        $('#photoShoot').fadeIn();
+//    }, function () {
+//        $('#photoShoot').fadeOut();
+//        });
+//});
+$(function () {
+    $('#hover').hover(function () {
+        $('#photoShoot').animate({
+            height: 'toggle'
+        });
+    });
+});
+
 (function ($) {
     $(document).ready(function () {
         //Hide navbar
